@@ -22,26 +22,27 @@ const products = [
     {
         name: "Pizza",
         price: 12,
-        id: ''
+        id: 'pzz'
     },
     {
         name: "Burger",
         price: 23,
-        id: ''
+        id: 'bgr'
     },
     {
         name: "Hot dog",
         price: 34,
-        id: ''
+        id: 'htdg'
     },
     {
         name: "Hot cakes",
         price: 355,
-        id: ''
+        id: 'htcks'
     },
 ];
 
-const rta3 = products.find(item => item.id === '')
+const rta3 = products.find(item => item.id === 'htdg')
 console.log('find', rta3);
-const rta4 = products.findIndex(item => item.id === '')
+
+const rta4 = products.findIndex(item => item.id === 'htcks')
 console.log('findIndex', rta4);
